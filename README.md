@@ -57,11 +57,8 @@ void loop()
 }
 ```
 
-The matching reference receiver is provided as:
+The matching reference receiver is provided as `SerialLED_RX.ino`.
 
-```
-SerialLED_RX.ino
-```
 
 ## Alternative initialization
 
