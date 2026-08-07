@@ -8,19 +8,12 @@ interface is available or desirable.
 Typical applications include:
 
 - Adding a maintenance interface to products that already contain a status LED.
-
 - Retrieving diagnostic information from sealed or potted devices.
-
 - Reading debug messages without a USB, UART or network connection.
-
 - Devices located behind windows.
-
 - Underwater devices where a physical electrical contact is impractical or impossible.
-
 - Low-cost optical communication between microcontrollers.
-
 - Educational projects demonstrating optical serial communication via an onboard or external LED.
-
 
 ## Ease of use
 
@@ -59,6 +52,33 @@ void loop()
 
 The matching reference receiver is provided as `SerialLED_RX.ino`.
 
+## Reference receiver
+
+### Probe in operation
+
+![Reader probe in operation](images/ReaderProbeAction.jpg)
+
+### Reference receiver probe
+
+![Reader probe](images/ReaderProbe.jpg)
+
+### Probe construction
+
+![Reader probe details](images/ReaderProbeDetails.png)
+
+The reader probe shown here is only one possible **reference implementation**, optimized for portable use.
+
+It consists of a slim PVC tube with an outer diameter of **8 mm** and an inner diameter of **6 mm**. A BPW40 phototransistor is mounted at the tip, while a blue status LED at the rear provides visual confirmation whenever valid data is received. The probe also contains the **10 kΩ pull-up resistor** and the **current-limiting resistor** for the status LED.
+
+The example shown uses a **2 m cable (4 × 0.14 mm²)** terminated with crimp connectors for standard MCU female headers.
+
+Many other receiver designs are equally possible. For example, a small microcontroller could be integrated directly into the probe or placed at the end of the cable and connected to a laptop via USB, either through a cable or a direct USB connector.
+
+Depending on the application, an optocoupler, a light guide, or any other suitable optical coupling method may be used instead of the handheld probe shown here.
+
+### Reference receiver circuit
+
+![BPW40 receiver schematic](images/BPW40schematic.png)
 
 ## Alternative initialization
 
