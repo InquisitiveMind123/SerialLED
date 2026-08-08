@@ -58,7 +58,7 @@ The matching reference receiver is provided as `SerialLED_RX.ino`.
 
 ![Reader probe in operation](images/ReaderProbeAction.jpg)
 
-### Reference receiver probe
+### Reference reader probe
 
 ![Reader probe](images/ReaderProbe.jpg)
 
@@ -68,7 +68,7 @@ The matching reference receiver is provided as `SerialLED_RX.ino`.
 
 The reader probe shown here is only one possible **reference implementation**, optimized for portable use.
 
-It consists of a slim PVC tube with an outer diameter of **8 mm** and an inner diameter of **6 mm**. A BPW40 photodiode is mounted at the tip, while a blue status LED at the rear provides visual confirmation whenever valid data is received. The probe also contains the **10 kΩ pull-up resistor** and the **current-limiting resistor** for the status LED.
+It consists of a slim PVC tube with an outer diameter of **8 mm** and an inner diameter of **6 mm**. A BPW40 phototransistor is mounted at the tip, while a blue status LED at the rear provides visual confirmation whenever valid data is received. The probe also contains the **10 kΩ pull-up resistor** and the **current-limiting resistor** for the status LED.
 
 The example shown uses a **2 m cable (4 × 0.14 mm²)** terminated with crimp connectors for standard MCU female headers.
 
