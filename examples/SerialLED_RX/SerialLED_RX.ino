@@ -31,9 +31,9 @@
                           |
                           +---------------- Arduino D2 (RX_PIN)
                           |
-                         (K)
+                         (C)
                         BPW40
-                         (A)
+                         (E)
                           |
                          GND
 
