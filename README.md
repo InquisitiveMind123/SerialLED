@@ -15,6 +15,21 @@ Typical applications include:
 - Low-cost optical communication between microcontrollers.
 - Educational projects demonstrating optical serial communication via an onboard or external LED.
 
+## The Communication Direction Can Be Reversed
+
+Although the examples in this repository focus on transmitting diagnostic and operating data *from* an embedded system, the optical transport principle is not limited to that direction.
+
+The same principle can also be used to transfer information *into* an embedded system. Possible applications include:
+
+- Setting the real-time clock.
+- Updating configuration or operating parameters.
+- Transferring calibration values.
+- Updating Wi-Fi credentials.
+- Activating service or maintenance modes.
+- Sending simple commands to an embedded system.
+
+The communication direction is defined entirely by the application. SerialLED simply transports serial data optically.
+
 ## Ease of use
 
 SerialLED provides a familiar Arduino `Print` API for optical data transmission through an onboard or external LED.
