@@ -130,4 +130,6 @@ The library intentionally focuses on providing a simple, familiar and lightweigh
 
 ## Combining the Concepts
 
-Combining the concept in this article with another one can provide an important diagnostic advantage. See [One LED Becomes a Complete Diagnostic Interface](https://github.com/InquisitiveMind123/One-LED-Becomes-a-Complete-Diagnostic-Interface).
+Combining the concept in this article with another one can provide an important diagnostic advantage. 
+
+See [One LED Becomes a Complete Diagnostic Interface](https://github.com/InquisitiveMind123/One-LED-Becomes-a-Complete-Diagnostic-Interface).
