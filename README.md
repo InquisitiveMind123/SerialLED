@@ -127,3 +127,7 @@ SerialLED is a **transport layer**.
 Framing, checksums, CRCs, sequence numbers, acknowledgements and application-specific protocols can be implemented by the user on top of it.
 
 The library intentionally focuses on providing a simple, familiar and lightweight optical transport interface.
+
+## Combining the Concepts
+
+Combining the concept in this article with another one can provide an important diagnostic advantage. See [One LED Becomes a Complete Diagnostic Interface](https://github.com/InquisitiveMind123/One-LED-Becomes-a-Complete-Diagnostic-Interface).
